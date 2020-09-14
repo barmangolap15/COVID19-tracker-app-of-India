@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">C19Tracker</string>
+    <string name="header">C19T</string>
+    <string name="all_rights">
+        <a href="https://www.covid19india.org/">@COVIND19INDIA.ORG</a>
+    </string>
+
+    <string name="overview1">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</string>
+    <string name="overview2">Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.</string>
+    <string name="overview3">The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face.</string>
+    <string name="overview4">The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).</string>
+    <string name="overview5">At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings become available.</string>
+
+    <string name="aboutApp1">COVID-19 status checker is only for INDIA. Have you can check the number of corona statuses in each affected states and districts.</string>
+    <string name="aboutApp2">The purpose of the app is to give corona affected information in INDIA</string>
+    <string name="aboutApp3">This app copyright goes to @CORONA19INDIA.ORG of Government. Data are taken from the government portal.</string>
+
+</resources>

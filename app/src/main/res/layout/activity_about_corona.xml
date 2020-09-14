@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AboutCorona">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/corona_pandamic"
+            android:elevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp">
+
+                <FrameLayout
+                    android:id="@+id/toolbar_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:theme="@style/ToolbarColoredBackArrow"
+                        app:navigationIcon="?attr/homeAsUpIndicator"
+                        app:popupTheme="@style/AppTheme"
+                        app:subtitleTextColor="@color/colorAccent"
+                        app:titleTextColor="@color/colorAccent" />
+                </FrameLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is Corona Virus?"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:includeFontPadding="false"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="According to World Health Organisation (WHO)"
+            android:fontFamily="@font/poppins"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/overview1"
+            android:fontFamily="@font/poppins"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/overview2"
+            android:fontFamily="@font/poppins"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/overview3"
+            android:fontFamily="@font/poppins"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/overview4"
+            android:fontFamily="@font/poppins"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/overview5"
+            android:fontFamily="@font/poppins"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prevention"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:includeFontPadding="false"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="According to World Health Organisation (WHO)"
+            android:fontFamily="@font/poppins"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/prevention_recyclerview"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+</androidx.core.widget.NestedScrollView>

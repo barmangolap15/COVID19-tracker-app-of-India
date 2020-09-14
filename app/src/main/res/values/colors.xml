@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F6D55C</color>
+    <color name="colorPrimaryDark">#F6D55B</color>
+    <color name="colorAccent">#2C2C2C</color>
+    <color name="toolbarTransparent">#00FFFFFF</color>
+    <color name="button">#20639B</color>
+    <color name="back">#3cAEA3</color>
+    <!--zones colors-->
+    <color name="orange">#FF9C3C</color>
+    <color name="red">#F44336</color>
+    <color name="green">#16bc7d</color>
+</resources>

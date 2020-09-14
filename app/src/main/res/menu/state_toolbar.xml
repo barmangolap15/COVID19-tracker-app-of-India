@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+    <item
+        android:id="@+id/about_corona"
+        android:title="About Corona"
+        />
+    <item android:title="About App"
+        android:id="@+id/about_app"
+        />
+</menu>
